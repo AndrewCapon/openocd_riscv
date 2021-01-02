@@ -7,3 +7,5 @@
 [submodule "src/jtag/drivers/libjaylink"]
 	path = src/jtag/drivers/libjaylink
 	url = https://github.com/AndrewCapon/libjaylink.git
+	branch = riscv_spinal_ulx3s_buffer_size
+
