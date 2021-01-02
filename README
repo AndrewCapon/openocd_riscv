@@ -11,7 +11,7 @@ Build :
 
 ```sh
 ./bootstrap
-./configure --enable-ftdi --enable-dummy
+./configure CFLAGS="-Wno-deprecated-declarations -Wno-sign-compare -Wno-header-guard" --enable-ftdi --enable-dummy 
 make
 #sudo make install
 ```
